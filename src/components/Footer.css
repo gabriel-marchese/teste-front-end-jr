@@ -1,0 +1,50 @@
+.footer {
+    background-color: #2A2A2A;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;   
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 325px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-evenly;
+    margin-top: 59px;
+    height: 225px;
+    width: 149px;
+}
+
+.footer-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-card-links {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #999999;
+    text-decoration: none;
+}

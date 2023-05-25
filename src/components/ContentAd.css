@@ -1,0 +1,11 @@
+.content-ad {
+    max-width: 1200px;
+    margin: 80px auto;
+
+}
+
+.content-ad-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,20 @@
+.ver-todos {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.ver-todos-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ver-todos-link {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    color: #3F3F40;
+    text-decoration: none;
+}
