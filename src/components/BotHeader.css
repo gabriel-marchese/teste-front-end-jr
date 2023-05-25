@@ -1,0 +1,31 @@
+.bot-header {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.bot-header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.13);
+    height: 40px;
+}
+
+.link-bot-header {
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #9F9F9F;
+}
+
+.link-bot-header:hover{
+    color: #F71963;
+}
+
+
