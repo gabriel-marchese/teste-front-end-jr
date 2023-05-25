@@ -1,0 +1,38 @@
+.categories {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.categories-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 174px;
+    margin: 25px;
+}
+
+.categories-card {
+    display: block;
+}
+
+.categories-img {
+    background: #F4F4F4;
+    box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.13);
+    border-radius: 10px;
+    width: 128px;
+    height: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.categories-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #4E4E4E;
+    margin-top: 25px;
+    }
