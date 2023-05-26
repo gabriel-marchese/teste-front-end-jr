@@ -1,18 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .show-case {
-    max-width: 1200px;
+    max-width: 1300px;
     margin: auto;
 }
 
 .show-case-content {
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.carrousel {
+    display: flex;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 0px;
-    gap: 62px;
-    
-    margin: 30px;
+    padding: 20px;
+    gap: 30px;
+    margin: 30px 0;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    object-fit: cover;
+
+}
+
+.teste1 {
+    align-self: center;
+    border: none;
+    background-color: #FFFFFF;
 }
 
 .product-card {

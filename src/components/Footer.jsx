@@ -40,19 +40,19 @@ class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-                <aside>
-                    <div>
-                        <h5>CADASTRE-SE E RECEBA NOSSAS <span>NOVIDADES E PROMOÇÕES</span></h5>
-                        <p>Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia lorem ipsum</p>
-                        <form>
-                            <input type="text" placeholder="SEU E-MAIL"/>
-                            <button>OK</button>
+                <aside className="footer-aside">
+                    <div className="footer-aside-content">
+                        <h5 className="aside-title">CADASTRE-SE E RECEBA NOSSAS <span className="span-aside">NOVIDADES E PROMOÇÕES</span></h5>
+                        <p className="aside-text">Excepteur sint occaecat cudatat non ent, sunt in culpa qui officia lorem ipsum</p>
+                        <form className="aside-form">
+                            <input type="text" placeholder="SEU E-MAIL" className="aside-input"/>
+                            <button className="aside-btn">OK</button>
                         </form>
                     </div>
                 </aside>
-            </div>
-            <BotFooter />
+            </div>  
         </div>
+        <BotFooter />
       </footer>
     );
   }
