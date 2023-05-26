@@ -1,0 +1,62 @@
+.Image-ad {
+    background-image: url("../image/ImageAd.png");
+    border-radius: 20px;
+    width: 574px;
+    height: 340px;
+}
+
+.Image-ad-content {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000ce 85.04%);
+    mix-blend-mode: normal;
+    border-radius: 0px 0px 20px 20px;
+    width: 574px;
+    height: 340px;
+}
+
+.Image-ad-card {
+    display: flex;
+    flex-direction: column;
+    width: 574px;
+    height: 278px;
+    justify-content: flex-end;
+    padding: 30px
+}
+
+
+.Image-ad-title { 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.Image-ad-text {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    width: 185px;
+}
+
+.Image-ad-btn {
+    width: 134.59px;
+    height: 48px;
+    background: #F71963;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

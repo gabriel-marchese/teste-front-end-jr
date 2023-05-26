@@ -1,0 +1,31 @@
+article {
+    text-align: center;
+}
+
+.title-title {
+    position: relative;
+  display: inline-block;
+  color: #F71963;
+  font-size: 1rem;
+  margin: 8px;
+  margin-left: 50px;
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+}
+.title-title::before,
+.title-title::after {
+  content: "";
+  position: absolute;
+  top: 0.65em;
+  width: 330px;
+  height: 0.05em;
+  background-color: #DEDEDE;
+  left: -12em;
+}
+.title-title::after {
+  left: initial;
+  right: -22rem;
+}

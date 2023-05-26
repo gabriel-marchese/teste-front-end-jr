@@ -1,0 +1,27 @@
+.bot-footer {
+    border-top: 3px solid #999999;
+}
+
+.bot-footer-content {
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+.bot-footer-container {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bot-footer-text {
+    width: 700px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}

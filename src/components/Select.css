@@ -1,0 +1,22 @@
+.select {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.select-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 211.5px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    text-decoration: none;
+    color: #3B3B3B;
+}

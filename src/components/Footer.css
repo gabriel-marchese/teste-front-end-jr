@@ -1,0 +1,131 @@
+.footer {
+    background-color: #2A2A2A;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;   
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 325px;
+}
+
+.card-content {
+    display: flex;
+    align-items: center;
+}
+
+.footer-card {
+    height: 236px;
+    margin-bottom: 35px;
+}
+
+.footer-card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+.footer-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.footer-card-links {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #999999;
+    text-decoration: none;
+    display: block;
+}
+
+.footer-aside {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 260px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.footer-aside-content {
+    width: 100%;
+}
+
+.aside-title {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: uppercase;
+    color: #4f4f50;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.span-aside {
+    color: #2A2A2A;
+    font-weight: bold;
+}
+
+.aside-text {
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 19px;
+    text-align: center;
+    color: #3F3F40;
+    margin-bottom: 20px;
+}
+
+.aside-form {
+    width: 310px;
+    margin: auto;
+}
+
+.aside-input {
+    width: 180px;
+    height: 43.4px;
+    border: 1px solid #2A2A2A;
+    border-radius: 4px;
+    padding: 0 20px;
+    margin-right: 9px;
+}
+
+.aside-btn {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #F71963;
+    width: 62px;
+    height: 45px;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
